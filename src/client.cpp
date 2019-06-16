@@ -2,10 +2,10 @@
 
 using namespace std;
 
-bool Client::add(const int id, vector<string> db, Server server)
-{
-    vector<AddToken> addTokens;
-    
+// bool Client::add(const int id, vector<string> db, Server server)
+// {
+//     vector<AddToken> addTokens;
 
-    return true;
-}
+
+//     return true;
+// }

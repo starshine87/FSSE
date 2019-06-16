@@ -10,8 +10,8 @@ class Server
     map<uint64_t, uint64_t> PL;
 public:
     Server();
-    bool add(vector<AddToken> addTokens);
-    vector<uint64_t> search(SearchToken searchToken);
-    bool del(); // TODO
+    // bool add(vector<AddToken> addTokens);
+    // vector<uint64_t> search(SearchToken searchToken);
+    // bool del(); // TODO
     ~Server();
 };
