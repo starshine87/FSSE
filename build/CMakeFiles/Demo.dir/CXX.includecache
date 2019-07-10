@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/star/OneDrive/CODES/fsse/src/main.cpp
+/Users/star/OneDrive/CODES/FSSE/src/add_token.h
 util.h
-/Users/star/OneDrive/CODES/fsse/src/util.h
-openssl/sha.h
--
+/Users/star/OneDrive/CODES/FSSE/src/util.h
 
-/Users/star/OneDrive/CODES/fsse/src/util.h
+/Users/star/OneDrive/CODES/FSSE/src/config.hpp
+
+/Users/star/OneDrive/CODES/FSSE/src/search_token.h
+util.h
+/Users/star/OneDrive/CODES/FSSE/src/util.h
+
+/Users/star/OneDrive/CODES/FSSE/src/server.cpp
+server.h
+/Users/star/OneDrive/CODES/FSSE/src/server.h
+
+/Users/star/OneDrive/CODES/FSSE/src/server.h
+util.h
+/Users/star/OneDrive/CODES/FSSE/src/util.h
+add_token.h
+/Users/star/OneDrive/CODES/FSSE/src/add_token.h
+search_token.h
+/Users/star/OneDrive/CODES/FSSE/src/search_token.h
+
+/Users/star/OneDrive/CODES/FSSE/src/util.h
 cstdint
 -
 inttypes.h
@@ -33,14 +49,10 @@ time.h
 -
 vector
 -
-openssl/aes.h
+openssl/sha.h
 -
-
-/usr/local/opt/openssl/include/openssl/aes.h
-openssl/opensslconf.h
--
-stddef.h
--
+config.hpp
+/Users/star/OneDrive/CODES/FSSE/src/config.hpp
 
 /usr/local/opt/openssl/include/openssl/e_os2.h
 openssl/opensslconf.h

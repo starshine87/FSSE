@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/star/OneDrive/CODES/fsse
+CMAKE_SOURCE_DIR = /Users/star/OneDrive/CODES/FSSE
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/star/OneDrive/CODES/fsse/build
+CMAKE_BINARY_DIR = /Users/star/OneDrive/CODES/FSSE/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Demo.dir/depend.make
@@ -59,47 +59,61 @@ include CMakeFiles/Demo.dir/flags.make
 
 CMakeFiles/Demo.dir/src/client.cpp.o: CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/src/client.cpp.o: ../src/client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/fsse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo.dir/src/client.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/client.cpp.o -c /Users/star/OneDrive/CODES/fsse/src/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Demo.dir/src/client.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/client.cpp.o -c /Users/star/OneDrive/CODES/FSSE/src/client.cpp
 
 CMakeFiles/Demo.dir/src/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/src/client.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/fsse/src/client.cpp > CMakeFiles/Demo.dir/src/client.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/FSSE/src/client.cpp > CMakeFiles/Demo.dir/src/client.cpp.i
 
 CMakeFiles/Demo.dir/src/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/src/client.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/fsse/src/client.cpp -o CMakeFiles/Demo.dir/src/client.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/FSSE/src/client.cpp -o CMakeFiles/Demo.dir/src/client.cpp.s
 
 CMakeFiles/Demo.dir/src/main.cpp.o: CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/fsse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Demo.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/main.cpp.o -c /Users/star/OneDrive/CODES/fsse/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Demo.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/main.cpp.o -c /Users/star/OneDrive/CODES/FSSE/src/main.cpp
 
 CMakeFiles/Demo.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/fsse/src/main.cpp > CMakeFiles/Demo.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/FSSE/src/main.cpp > CMakeFiles/Demo.dir/src/main.cpp.i
 
 CMakeFiles/Demo.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/fsse/src/main.cpp -o CMakeFiles/Demo.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/FSSE/src/main.cpp -o CMakeFiles/Demo.dir/src/main.cpp.s
+
+CMakeFiles/Demo.dir/src/server.cpp.o: CMakeFiles/Demo.dir/flags.make
+CMakeFiles/Demo.dir/src/server.cpp.o: ../src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Demo.dir/src/server.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/server.cpp.o -c /Users/star/OneDrive/CODES/FSSE/src/server.cpp
+
+CMakeFiles/Demo.dir/src/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/src/server.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/FSSE/src/server.cpp > CMakeFiles/Demo.dir/src/server.cpp.i
+
+CMakeFiles/Demo.dir/src/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/src/server.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/FSSE/src/server.cpp -o CMakeFiles/Demo.dir/src/server.cpp.s
 
 CMakeFiles/Demo.dir/src/util.cpp.o: CMakeFiles/Demo.dir/flags.make
 CMakeFiles/Demo.dir/src/util.cpp.o: ../src/util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/fsse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Demo.dir/src/util.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/util.cpp.o -c /Users/star/OneDrive/CODES/fsse/src/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Demo.dir/src/util.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Demo.dir/src/util.cpp.o -c /Users/star/OneDrive/CODES/FSSE/src/util.cpp
 
 CMakeFiles/Demo.dir/src/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Demo.dir/src/util.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/fsse/src/util.cpp > CMakeFiles/Demo.dir/src/util.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/star/OneDrive/CODES/FSSE/src/util.cpp > CMakeFiles/Demo.dir/src/util.cpp.i
 
 CMakeFiles/Demo.dir/src/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Demo.dir/src/util.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/fsse/src/util.cpp -o CMakeFiles/Demo.dir/src/util.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/star/OneDrive/CODES/FSSE/src/util.cpp -o CMakeFiles/Demo.dir/src/util.cpp.s
 
 # Object files for target Demo
 Demo_OBJECTS = \
 "CMakeFiles/Demo.dir/src/client.cpp.o" \
 "CMakeFiles/Demo.dir/src/main.cpp.o" \
+"CMakeFiles/Demo.dir/src/server.cpp.o" \
 "CMakeFiles/Demo.dir/src/util.cpp.o"
 
 # External object files for target Demo
@@ -107,12 +121,13 @@ Demo_EXTERNAL_OBJECTS =
 
 Demo: CMakeFiles/Demo.dir/src/client.cpp.o
 Demo: CMakeFiles/Demo.dir/src/main.cpp.o
+Demo: CMakeFiles/Demo.dir/src/server.cpp.o
 Demo: CMakeFiles/Demo.dir/src/util.cpp.o
 Demo: CMakeFiles/Demo.dir/build.make
 Demo: /usr/local/opt/openssl/lib/libssl.dylib
 Demo: /usr/local/opt/openssl/lib/libcrypto.dylib
 Demo: CMakeFiles/Demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/star/OneDrive/CODES/fsse/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Demo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +140,6 @@ CMakeFiles/Demo.dir/clean:
 .PHONY : CMakeFiles/Demo.dir/clean
 
 CMakeFiles/Demo.dir/depend:
-	cd /Users/star/OneDrive/CODES/fsse/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/star/OneDrive/CODES/fsse /Users/star/OneDrive/CODES/fsse /Users/star/OneDrive/CODES/fsse/build /Users/star/OneDrive/CODES/fsse/build /Users/star/OneDrive/CODES/fsse/build/CMakeFiles/Demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/star/OneDrive/CODES/FSSE/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/star/OneDrive/CODES/FSSE /Users/star/OneDrive/CODES/FSSE /Users/star/OneDrive/CODES/FSSE/build /Users/star/OneDrive/CODES/FSSE/build /Users/star/OneDrive/CODES/FSSE/build/CMakeFiles/Demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Demo.dir/depend
 

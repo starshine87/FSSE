@@ -1,31 +1,22 @@
-# CMake 最低版本号要求
-cmake_minimum_required (VERSION 2.8)
+cmake_minimum_required(VERSION 3.14)
+project(Demo)
 
-# 项目信息
-project (FSSE)
+set(CMAKE_CXX_STANDARD 14)
 
-find_package (openssl)
+find_package (openssl REQUIRED)
 
-# 版本号.
-set (Tutorial_VERSION_MAJOR 0)
-set (Tutorial_VERSION_MINOR 0)
+include_directories(src)
 
-# configure a header file to pass some of the CMake settings
-# to the source code
-configure_file (
-  "${PROJECT_SOURCE_DIR}/config.h.in"
-  "${PROJECT_BINARY_DIR}/config.h"
-)
+add_executable(Demo
+        src/add_token.h
+        src/client.cpp
+        src/client.h
+        src/config.hpp
+        src/main.cpp
+        src/search_token.h
+        src/server.cpp
+        src/server.h
+        src/util.cpp
+        src/util.h)
 
-# add the binary tree to the search path for include files
-# so that we will find TutorialConfig.h
-include_directories ("${PROJECT_BINARY_DIR}")
-include_directories ("${PROJECT_SOURCE_DIR}/src")
-include_directories ("/usr/local/Cellar/openssl/1.0.2s/include")
-
-link_directories ("/usr/local/Cellar/openssl/1.0.2s/lib")
-
-# 指定生成目标
-add_executable (Demo 
-  main.cpp
-)
+target_link_libraries (Demo OpenSSL::SSL)

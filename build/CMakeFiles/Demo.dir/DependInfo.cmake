@@ -4,9 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/star/OneDrive/CODES/fsse/src/client.cpp" "/Users/star/OneDrive/CODES/fsse/build/CMakeFiles/Demo.dir/src/client.cpp.o"
-  "/Users/star/OneDrive/CODES/fsse/src/main.cpp" "/Users/star/OneDrive/CODES/fsse/build/CMakeFiles/Demo.dir/src/main.cpp.o"
-  "/Users/star/OneDrive/CODES/fsse/src/util.cpp" "/Users/star/OneDrive/CODES/fsse/build/CMakeFiles/Demo.dir/src/util.cpp.o"
+  "/Users/star/OneDrive/CODES/FSSE/src/client.cpp" "/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles/Demo.dir/src/client.cpp.o"
+  "/Users/star/OneDrive/CODES/FSSE/src/main.cpp" "/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles/Demo.dir/src/main.cpp.o"
+  "/Users/star/OneDrive/CODES/FSSE/src/server.cpp" "/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles/Demo.dir/src/server.cpp.o"
+  "/Users/star/OneDrive/CODES/FSSE/src/util.cpp" "/Users/star/OneDrive/CODES/FSSE/build/CMakeFiles/Demo.dir/src/util.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

@@ -6,9 +6,9 @@
         {
             "label": "fsse",
             "type": "shell",
-            "command": "clang++",
+            "command": "g++",
             "args": [
-                "main.cpp", 
+                "./src/main.cpp", 
                 "-I", 
                 "/usr/local/opt/openssl/lib/"
             ],
